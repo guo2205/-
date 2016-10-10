@@ -6,10 +6,6 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
-var tuding = require('./routes/tuding');
-var query = require('./routes/query');
-var mysql = require('./routes/mysql');
-var test = require('./routes/test');
 //var mine = require('./routes/mine').types;
 
 var app = express();
